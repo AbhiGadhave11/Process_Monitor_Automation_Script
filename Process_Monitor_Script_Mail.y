@@ -72,14 +72,6 @@ def Create_Log(strX,listProcess):
 		except:
 			pass;
 
-	'''print(os.path.abspath(strX))
-	log_path = os.path.join(strX,"CreateLog_At_%s.log" %(time.ctime()))
-	print(log_path)
-	print("Actual Path : ")
-	log_path = os.path.join(os.path.abspath(strX),"CreateLog_At_%s.log" %(time.ctime()))
-	print(log_path)'''
-
-
 	name = datetime.datetime.now()
 	Day = (str)(name.day)
 	month = (str)(name.month)
