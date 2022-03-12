@@ -1,3 +1,12 @@
+######################################################      
+#  Author : Abhijit Kailas Gadhave                   #
+#  Date : 10/01/2022                                 #
+#  Use :- Script run continuously as per scheduler   #
+#         and then write which processes are         #
+#	  running in our machine in log file         #
+#	  and send that log file to the given mail ID#
+######################################################
+
 #import statements if Required
 from sys import *
 import psutil
@@ -10,7 +19,6 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
-
 
 
 #Functions Used in our Script
